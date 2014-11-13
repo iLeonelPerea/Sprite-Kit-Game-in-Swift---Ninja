@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "shootingGame.GameScene.didBeginContact (shootingGame.GameScene)(ObjectiveC.SKPhysicsContact) -&gt; ():GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "PhysicsCategory.Monster">
+            </PersistentString>
+            <PersistentString
+               value = "contact.bodyA.categoryBitMask">
+            </PersistentString>
+            <PersistentString
+               value = "monsterBody.categoryBitMask">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "shootingGame.GameScene.(addMonster (shootingGame.GameScene) -&gt; () -&gt; ()).(closure #1):GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "life">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "shootingGame.GameScene.touchesEnded (shootingGame.GameScene)(ObjectiveC.NSSet, withEvent : ObjectiveC.UIEvent) -&gt; ():GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "projectile.position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
