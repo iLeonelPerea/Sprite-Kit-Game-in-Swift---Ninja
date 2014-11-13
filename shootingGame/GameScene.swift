@@ -90,7 +90,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         live = 5
     }
     
-    var player = SKSpriteNode(imageNamed: "player")
+    let player = SKSpriteNode(imageNamed: "player")
     
     override func didMoveToView(view: SKView) {
         // Set background
@@ -124,10 +124,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         // Set background audio
         playBackgroundMusic("background-music-aac.caf")
-        
-        // declare constant for the player
-        var player = SKSpriteNode(imageNamed: "player")
-        
+                
         // Set position for the player
         player.position = CGPoint(x: size.width * 0.1, y: size.height * 0.5)
         
